@@ -1,0 +1,176 @@
+*{
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    color: white;
+    background-color: lightslategrey;
+}
+.opacityTop{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: lightslategrey ;
+}
+header {
+    position: absolute;
+    padding: 15px;
+    width: 100%;
+    background:none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logoHeader{
+    width: 100px;
+}
+
+.titleImg{
+    position: absolute;
+    z-index: 2;
+    width:50%;
+    text-align: left;
+    top:45%;
+    left:25%;
+}
+#imgBannerZero{
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.arrow{
+    text-align: center;
+}
+#arrow{
+    width: 75px;
+    animation-name:arrow;
+    animation-duration:2.5s ;
+    cursor: pointer;
+    animation-iteration-count: infinite;
+
+}
+@keyframes arrow {
+    0%{transform: translateY(0)}
+    50%{transform: translateY(40px)}
+    100%{transform: translateY(0)}
+}
+a{
+    font-size: 18px;
+    text-decoration: none;
+    color:white;
+    font-family:'Comfortaa', cursive;
+    scroll-behavior: smooth;
+}
+a:hover{
+    text-decoration: underline;
+    color: lightslategrey;
+
+}
+button {
+    float: right;
+    border-radius: 40px;
+    padding: 10px 30px;
+    color: white;
+    border: 2px solid white;
+    background: none;
+    font-size: 15px;
+
+}
+button:hover{
+    background-color:white;
+    color: lightslategrey;
+    transition: 0.4s;
+    cursor: pointer;
+}
+ul li {
+    list-style: none;
+}
+.containerOne{
+    position: static;
+    padding: 100px;
+    font-size: 25px;
+    background-image: url("../img/img_banner22.jpg");
+    background-size: cover;
+}
+h1{
+    margin:20px;
+    font-family: 'Comfortaa', cursive;
+
+}
+h2{
+    margin: 0;
+    font-size: 30px;
+    font-family: 'Comfortaa', cursive;
+}
+
+p{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+li{
+    padding: 10px;
+    font-size: 20px;
+
+}
+.containerBanner{
+
+    z-index: 2;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.bannerOne{
+    width: 100%;
+    background-color:lightslategrey;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+}
+.bannerLogo{
+    width: 100px;
+
+
+}
+
+
+.containerTwo {
+
+    background-image: url("../img/handImg.jpg");
+    position: static;
+    padding: 100px;
+    font-size: 25px;
+    background-size: cover;
+}
+
+footer {
+    width: 100%;
+    border-top: 2px solid white;
+    padding-top:1%;
+    padding-bottom:1%;
+    background:lightslategrey;
+}
+#footer{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+.lic{
+    position:absolute;
+    z-index:999;
+    right:0;
+    font-size:11px;
+    color:#666;
+}
+h3{
+    font-family: 'Comfortaa', cursive;
+    border: 1px solid white;
+    text-align: center;
+}
+#mail{
+    color: purple;
+}
